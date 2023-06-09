@@ -10,7 +10,7 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "start": "node --max_old_space_size=8192 index.js",
+        "start": "node index.js",
         "test": "node test.js"
     },
     "keywords": [
@@ -38,7 +38,8 @@
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys":  "github:Guru322/baileys",
+        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@^6.0.1",
+        "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "^3.0.0",
         "awesome-phonenumber": "^3.4.0",
         "acrcloud": "^1.4.0",
